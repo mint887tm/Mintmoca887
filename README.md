@@ -38,30 +38,3 @@ PDF 파싱	PDFKit
 요약	GPT API (OpenAI GPT-4o 참고)
 저장	CoreData 또는 UserDefaults
 UI 기능	Drag & Drop, SplitView, Copy to Clipboard, 파일 선택기
-
-
-⸻
-
-테스트 구조 (UI)
-
-페이지 구조
-
-+---------------------------------------------------------+
-| Drag here to upload your PDF                            |
-+---------------------------------------------------------+
-| 문서제목                                                  |  
-|                              |
-| ┌────────────────────────────└────────────────────────────┘
-| │ 원문 미리보기 │      GPT 요약 결과 보기             │
-| │ (PDF View)    │   (Section, Abstract, etc 구분)     │
-| └────────────────────────────┘────────────────────────────┘
-
-요약 결과 보기
-	•	전체 요약
-	•	챕터별 요약
-	•	Abstract
-	•	Introduction
-	•	Methods
-	•	Results
-	•	Conclusion
-	•	복사 or 저장 버튼
